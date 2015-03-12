@@ -1,4 +1,4 @@
-package joseaugustodemelo.com.br.sunshine;
+package com.exemple.android.sunshine;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
@@ -10,10 +10,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -63,18 +59,7 @@ public class MainActivity extends ActionBarActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-
-            String[] forecastArray = {"Today - Synny - 88/63",
-                    "Tomorrow - Foggy - 70/40",
-                    "Weds - Cloudy - 72/63",
-                    "Thurs - Asteroids - 75/65",
-                    "Fri - Heagy Rain - 65/56",
-                    "Sat - HELP TRAPPED IN WATHERSTATION - 60/51",
-                    "Sun - Sunny - 80/68"};
-            List<String> weekForecast = new ArrayList<String>(Arrays.asList(forecastArray));
-
-            View rootView;
-            rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
             return rootView;
         }
     }

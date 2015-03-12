@@ -1,4 +1,4 @@
-package joseaugustodemelo.com.br.sunshine;
+package com.exemple.android.sunshine;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

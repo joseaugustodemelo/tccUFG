@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "joseaugustodemelo.com.br.sunshine"
+        applicationId "com.exemple.android.sunshine"
         minSdkVersion 10
         targetSdkVersion 21
         versionCode 1
